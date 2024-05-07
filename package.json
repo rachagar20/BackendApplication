@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "A BackEnd project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start":"node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend"
   ],
   "author": "Rachit Agarwal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
 }

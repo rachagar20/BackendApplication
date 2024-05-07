@@ -1,1 +1,1 @@
-A simple backend project
+A simple backend project involving Nodejs, ExpressJs and MongoDB
